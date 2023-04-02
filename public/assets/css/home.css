@@ -1,0 +1,232 @@
+.navbar_1{
+    border-bottom: 1px solid #aaa;
+    background-color: #FBFBFC;
+    color: #15161D;
+    padding: 0 60px;
+}
+.navbar_2 ul{
+    list-style: none;
+    margin-left: 18px;
+}
+.navbar_2 ul li{
+    padding-right: 25px;
+    /* background-color: #D10024; */
+    margin-right: 12px;
+    text-align: center;
+}
+
+.navbar_2 ul li a{
+    position: relative;
+    text-decoration: none;
+    color: #15161D;
+    font-weight: bold;
+    font-size: 14px;
+    transition: .5s ease;
+}
+.navbar_2 ul li a:hover{
+    color: #3b7ddd;
+}
+
+.navbar_2 ul li a::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2.5px;
+    top: 20px;
+    left: 0;
+    background-color: #3b7ddd;
+    transition: .5s ease;
+}
+.navbar_2 ul li a:hover::after{
+    width: 100%;
+}
+/* ---------------------- */
+.card_img{
+    border-bottom: 1.5px solid #E4E7ED;
+}
+/* ----------------------- */
+.Head{
+    background-color: #3b7ddd;
+    color: #ffffff;
+}
+/* .container{
+    justify-content: space-between;
+    align-items: center;
+} */
+.Head-links1,
+.Head-links2{
+    display: flex;
+    /* padding: var(--padding-x); */
+}
+.Head-links1 a,
+.Head-links2 a{
+    font-size: 11px;
+    /* font-weight: 700; */
+    padding: 10px 0;
+    margin-right: calc(50px / 4);
+    transition: .5s ease;
+    text-decoration: none;
+    color: #FBFBFC;
+}
+.Head-links1 a:hover,
+.Head-links2 a:hover{
+    color: #aaa;
+}
+
+/* ------------------- */
+.product_card{
+    transition: .4s ease-in-out;
+    position: relative;
+}
+.product_card:hover{
+    border: 1px solid #3b7ddd;
+}
+
+.status{
+    position: absolute;
+    top: -16px;
+    left: 8px;
+    color: #FBFBFC;
+    padding: 6px 15px;
+}
+.product_title{
+    /* border-bottom: 4px solid #3b7ddd; */
+    color: #1E1F29;
+}
+/* ------------------- */
+.footer_title{
+    border-bottom: 4px solid #3b7ddd;
+    width: 75px;
+}
+.footer_title1{
+    border-bottom: 4px solid #3b7ddd;
+    width: 115px;
+}
+.bgc-darker{
+    background-color: #15161D;
+}
+
+.bgc-dark{
+    background-color: #1E1F29;
+    color: #15161D;
+}
+
+.footer{
+    border-top: 4px solid #3b7ddd;
+}
+
+.footerlinks a{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0;
+    color: #aaa;
+    transition: all .4s ease;
+}
+.linehight a{
+    line-height: 30px;
+}
+.footerlinks a:hover{
+    color: #3b7ddd;
+}
+.aboutus{
+    color: #aaa;
+    /* background-color: #2B2D42; */
+}
+/* ------------------------- */
+.auth_btn{
+    color: #3b7ddd;
+    border: 2px solid #3b7ddd;
+    margin-right: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+.auth_btn1{
+    color: #ffffff;
+    background-color: #3b7ddd;
+    margin-right: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.auth_btn1:hover{
+    background-color: #ffffff;
+    border: 2px solid #3b7ddd;
+    color: #3b7ddd;
+}
+.auth_btn2:hover{
+    color: #ffffff;
+    background-color: #3b7ddd;
+}
+
+.linehight{
+    line-height: 15px;
+}
+/* ----------Header---------- */
+.Header{
+    background-color: #15161D;
+    border-bottom: 4px solid #3b7ddd;
+    padding: 12px 0;
+}
+.Header-searchBar form .search{
+    width: 370px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.Header-searchBar form .btn{
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #3b7ddd;
+    color: #FBFBFC;
+}
+.heart,
+.cart{
+    position: relative;
+    color: #FBFBFC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heart span,
+.cart span{
+    position: absolute;
+    top: 4px;
+    padding: 2px 8px;
+    border-radius: 50%;
+    font-size: 11px;
+    background-color: #3b7ddd;
+}
+.heart .icon,
+.cart .icon{
+    margin-top: 10px;
+}
+
+.heart p,
+.cart p{
+    font-size: 13px;
+    font-weight: 700;
+}
+/* ------------------------- */
+.slide_btn{
+    position: absolute;
+    top: 400px;
+    right: 525px;
+    z-index: 1000;
+}
+.slider_description{
+    position: absolute;
+    top: -340px;
+    right: 145px;
+
+}
+.slider_title{
+    position: absolute;
+    top: -380px;
+    right: 50px;
+}
